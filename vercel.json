@@ -1,7 +1,9 @@
 {
-  "rewrites": [
-    { "source": "/onboarding-portal", "destination": "/index.html" },
-    { "source": "/onboarding-portal/", "destination": "/index.html" },
-    { "source": "/onboarding-portal/:path*", "destination": "/:path*" }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/onboarding-portal",
+      "permanent": true
+    }
   ]
 }
