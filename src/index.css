@@ -1,0 +1,53 @@
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.3s ease;
+}
+
+/* Light mode text color overrides - make text black */
+body.light-mode .text-white,
+.light-mode .text-white {
+  color: #000000 !important;
+}
+
+/* Progress circle numbers must stay white on dark circles (both modes) */
+.progress-step-number,
+body.light-mode .progress-step-number,
+.light-mode .progress-step-number {
+  color: #ffffff !important;
+}
+
+body.light-mode .text-gray-300,
+.light-mode .text-gray-300 {
+  color: #000000 !important;
+}
+
+body.light-mode .text-gray-400,
+.light-mode .text-gray-400 {
+  color: #000000 !important;
+}
+
+body.light-mode .text-gray-500,
+.light-mode .text-gray-500 {
+  color: #000000 !important;
+}
+
+/* Light mode placeholder colors */
+body.light-mode input::placeholder,
+body.light-mode textarea::placeholder,
+.light-mode input::placeholder,
+.light-mode textarea::placeholder {
+  color: #9ca3af !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
