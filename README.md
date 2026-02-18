@@ -1,19 +1,25 @@
-# Creator Onboarding Portal
+# SaaS Onboarding Portal
 
-A full-featured onboarding progress tracker for content creators and publishers. This React application demonstrates a multi-phase onboarding flow with data collection, site analysis, setup tasks, and progress tracking.
+A full-featured onboarding progress tracker for SaaS businesses. This React application demonstrates a multi-phase onboarding flow with data collection, business analysis, setup tasks, and progress tracking.
+
+## Live Demo
+
+**[View the app →](https://saas-onboarding-flow.netlify.app/)**
+
+The app is deployed on Netlify for easy preview and testing.
 
 ## Features
 
-- **Multi-phase onboarding flow**: Data Collection → Site Analysis → Site Setup → Second Analysis
+- **Multi-phase onboarding flow**: Data Collection → Business Analysis → Business Setup → Final Business Analysis
 - **Progress tracking** with step completion and visual indicators
 - **Multi-site dashboard** for managing multiple properties
 - **Responsive design** with dark/light mode support
-- **FAQ section** with expandable content
-- **Sample resource center** with helpful links and documentation
+- **FAQ sidebar** with step-specific help
+- **Resource center** with helpful links and documentation
 
 ## Tech Stack
 
-- React 18
+- React 17
 - Tailwind CSS
 - Create React App
 

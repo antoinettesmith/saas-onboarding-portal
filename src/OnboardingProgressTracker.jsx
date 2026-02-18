@@ -1668,7 +1668,7 @@ export default function OnboardingProgressTracker() {
         <div className="max-w-4xl mx-auto p-8">
           <div className="space-y-6 text-white">
             <h1 className="text-3xl font-bold">
-              Welcome to your Onboarding Dashboard, [Customer First Name]!
+              Welcome to your Onboarding Dashboard, Joe!
             </h1>
             <p className="text-gray-300">
               We're so glad you're here! Along with your designated Account Manager, 
@@ -1766,7 +1766,7 @@ export default function OnboardingProgressTracker() {
               ) : (
                 <>
                   <h2 className="text-3xl font-bold mb-4">
-                    Thank you, [Customer Name]! 🎉
+                    Thank you, Joe! 🎉
                   </h2>
                   <div
                     className="p-6 rounded-lg border border-gray-600"
@@ -2082,7 +2082,7 @@ export default function OnboardingProgressTracker() {
               ) : (
                 <>
                   <h2 className="text-3xl font-bold text-center mb-4">
-                    Thank you, *Customer Name*! 🎉
+                    Thank you, Joe! 🎉
                   </h2>
                   <div
                     className="p-6 rounded-lg border border-gray-600"
