@@ -42,7 +42,7 @@ export default function App() {
             Welcome to SmithTech Onboarding
           </h1>
           <p className="text-gray-400 text-sm mb-2">
-            (SmithTech is totally made up—this is a demo! 🤫)
+            (SmithTech is totally made up—this is a demo!)
           </p>
           <p className="text-gray-400 mb-8">
             Let's get started! Enter your first name below to play along.
