@@ -1667,39 +1667,37 @@ export default function OnboardingProgressTracker({ userName = "there" }) {
       return (
         <div className="max-w-4xl mx-auto p-8">
           <div className="space-y-6 text-white">
+            <div className="inline-block px-4 py-2 rounded-full bg-purple-500/20 text-purple-300 text-sm font-medium mb-2">
+              🎨 Portfolio project · SmithTech is fictional
+            </div>
             <h1 className="text-3xl font-bold">
               Welcome to your Onboarding Dashboard, {userName}!
             </h1>
             <p className="text-gray-300">
-              We're so glad you're here! Along with your designated Account Manager, 
-              the Onboarding Dashboard will guide you through the entire
-              onboarding experience and everything you need to get started with
-              SmithTech. This process sets you up for success and gets your business
-              ready for maximum performance with SmithTech.
+              Hey there! This is a demo onboarding flow I built for my portfolio—SmithTech 
+              isn't a real company, but the experience is! 👋 Along with your (imaginary) 
+              Account Manager, this dashboard will walk you through a typical SaaS onboarding 
+              experience. Think of it as a behind-the-scenes peek at how these flows work.
             </p>
             <p className="text-gray-300">
-              Along the way, we'll help you gather key information, complete
-              your technical setup, and ensure you're fully prepared for your
-              implementation.
+              You'll see data collection, business analysis steps, setup tasks, and more—all 
+              the pieces that make up a real onboarding journey. Feel free to click around 
+              and explore!
             </p>
-            <div className="pl-6">
+            <div className="pl-6 border-l-4 border-purple-500/50 rounded">
               <p className="text-gray-300">
                 🔐{" "}
                 <strong>
-                  Secure your new SmithTech account with 2-step verification!
+                  (Demo) Secure your SmithTech account with 2-step verification!
                 </strong>
               </p>
               <p className="text-gray-300">
-                Your dashboard access is linked to your Google account—help keep
-                it safe! Enabling 2-step verification (2FA) takes just a few
-                minutes and provides an extra layer of protection against
-                unauthorized access. Stay secure and in control of your data by
-                setting it up today.
+                In a real app, you'd enable 2FA here. For this demo, just enjoy the vibes. 
+                No actual accounts or data—you're safe! 😄
               </p>
             </div>
             <p className="text-gray-300">
-              When you're ready to begin, click 'Get Started' below to start
-              your onboarding.
+              Ready to explore? Click 'Get Started' below to dive in.
             </p>
             <div className="flex justify-start mt-6">
               <button

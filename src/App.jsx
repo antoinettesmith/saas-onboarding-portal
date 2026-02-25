@@ -35,11 +35,17 @@ export default function App() {
         }}
       >
         <div className="max-w-md w-full text-center">
+          <p className="text-sm text-purple-400 mb-3 font-medium">
+            ✨ A portfolio project by Antoinette Smith
+          </p>
           <h1 className="text-3xl font-bold text-white mb-2">
             Welcome to SmithTech Onboarding
           </h1>
+          <p className="text-gray-400 text-sm mb-2">
+            (SmithTech is totally made up—this is a demo! 🤫)
+          </p>
           <p className="text-gray-400 mb-8">
-            Let's get started! Please enter your first name below.
+            Let's get started! Enter your first name below to play along.
           </p>
           <form onSubmit={handleSubmit} className="space-y-4">
             <input
