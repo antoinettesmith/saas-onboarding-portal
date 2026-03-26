@@ -9,9 +9,6 @@
   "rewrites": [
     { "source": "/onboarding-portal", "destination": "/index.html" },
     { "source": "/onboarding-portal/", "destination": "/index.html" },
-    { "source": "/onboarding-portal/:path*", "destination": "/:path*" },
-
-    { "source": "/pincircles", "destination": "https://pincircles.vercel.app/" },
-    { "source": "/pincircles/:path*", "destination": "https://pincircles.vercel.app/:path*" }
+    { "source": "/onboarding-portal/:path*", "destination": "/:path*" }
   ]
 }
