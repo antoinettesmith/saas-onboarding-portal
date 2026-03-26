@@ -2,7 +2,7 @@
   "name": "onboarding-portal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://antoinettebsmith.com/onboarding-portal",
+  "homepage": "https://onboarding-portal.antoinettebsmith.com",
   "dependencies": {
     "autoprefixer": "^10.4.24",
     "postcss-cli": "^8.2.0",
